@@ -1,0 +1,31 @@
+{
+  "rootId": "11a047149aef80578303e705001bb90e",
+  "rootObjectType": "database",
+  "cache": {
+    "cacheDirectory": "./.downloader",
+    "cleanCache": false,
+    "cacheStrategy": "cache",
+    "cacheAssets": true
+  },
+  "rootDbAsFolder": true,
+  "conversion": {
+    "skip": false,
+    "overwrite": false,
+    "filters": [],
+    "pageLinkHasExtension": false,
+    "markdownExtension": "mdx",
+    "namingStrategy": {
+      "markdown": "urlEncoding",
+      "assets": "guid"
+    },
+    "outputPaths": {
+      "markdown": "pages",
+      "assets": "public"
+    },
+    "markdownPrefixes": "",
+    "layoutStrategy": {
+      "markdown": "hierarchical",
+      "assets": "flat"
+    }
+  }
+}

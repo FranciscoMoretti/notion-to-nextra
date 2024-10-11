@@ -6,21 +6,29 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "download": "notion-downloader pull",
+    "cleanup:output": "notion-downloader cleanup -o",
+    "cleanup:all": "notion-downloader cleanup"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.14"
+    "next": "^14.2.14",
+    "nextra": "^3.0.6",
+    "nextra-theme-docs": "^3.0.6",
+    "notion-downloader": "^0.1.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-player": "^3.0.0-canary.4"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10.4.20",
     "eslint": "^8",
-    "eslint-config-next": "14.2.14"
+    "eslint-config-next": "14.2.14",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5"
   }
 }

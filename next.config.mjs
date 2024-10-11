@@ -1,6 +1,23 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-};
+import nextra from 'nextra'
 
-export default nextConfig;
+/** @type {import('next').NextConfig} */
+const withNextra = nextra({
+  theme: 'nextra-theme-docs',
+  themeConfig: './theme.config.tsx',
+  
+  
+})
+
+const nextConfig = {
+  ...withNextra(),
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**",
+      },
+    ],
+  },
+}
+ 
+export default nextConfig
