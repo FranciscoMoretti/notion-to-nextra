@@ -6,9 +6,6 @@ const config: DocsThemeConfig = {
   project: {
     link: 'https://github.com/FranciscoMoretti/notion-nextra',
   },
-  chat: {
-    link: 'https://discord.com',
-  },
   docsRepositoryBase: 'https://github.com/FranciscoMoretti/notion-nextra',
 }
 
