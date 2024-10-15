@@ -26,6 +26,9 @@
     "layoutStrategy": {
       "markdown": "hierarchical",
       "assets": "flat"
-    }
+    },
+    "plugins": [
+      "video"
+    ]
   }
 }
