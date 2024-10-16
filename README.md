@@ -1,11 +1,11 @@
 # Notion-Downloader Nextra Template
 
-This repository demonstrates how to integrate Notion content with a Nextra documentation site using [`notion-downloader`](https://github.com/FranciscoMoretti/notion-downloader).
+This repository demonstrates how to setup a Nextra documentation site that uses [`notion-downloader`](https://github.com/FranciscoMoretti/notion-downloader) to pull content from Notion.
 
 ## Guide 
 
 Learn how to create a nextra site that gets content from Notion:
-[Integrating Nextra with notion-downloader](https://downloader.franciscomoretti.com/docs/guide/nextra)
+[Notion to Nextra with notion-downloader](https://downloader.franciscomoretti.com/docs/guide/nextra)
 
 
 ## Demo
