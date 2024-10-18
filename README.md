@@ -10,7 +10,7 @@ Learn how to create a nextra site that gets content from Notion:
 
 ## Demo
 
-See this template in action: [Notion-Nextra Demo](https://notion-nextra.vercel.app/)
+See this template in action: [Notion-to-Nextra Demo](https://notion-nextra.vercel.app/)
 
 
 ## Quick Start
