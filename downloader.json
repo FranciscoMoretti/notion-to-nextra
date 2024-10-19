@@ -28,7 +28,7 @@
       "assets": "flat"
     },
     "plugins": [
-      "video"
+      "standardVideoTransformer"
     ]
   }
 }
